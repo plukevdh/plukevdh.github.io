@@ -1,7 +1,7 @@
 ---
 layout: post
-title:  "Date, DateTime, Time, Oh My!"
-date:   2015-06-17 23:25:35
+title:  "Date, DateTime and Time, Oh My!"
+date:   2015-06-17
 tags: ruby code quirks TIL
 ---
 

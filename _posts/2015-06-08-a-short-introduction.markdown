@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "A short introduction"
-date:   2015-06-08 10:47:35
+date:   2015-06-08
 tags: software next
 published: false
 ---
