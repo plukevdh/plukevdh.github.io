@@ -1,0 +1,12 @@
+# Site settings
+title: Software.next
+email: hi@plukevdh.me
+description: >
+  Let's talk about the future of software development.
+baseurl: "" # the subpath of your site, e.g. /blog/
+url: "http://blog.plukevdh.me" # the base hostname & protocol for your site
+twitter_username: plukevdh
+github_username:  plukevdh
+
+# Build settings
+markdown: kramdown
