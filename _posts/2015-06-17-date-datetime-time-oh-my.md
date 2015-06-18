@@ -2,7 +2,7 @@
 layout: post
 title:  "Date, DateTime, Time, Oh My!"
 date:   2015-06-17 23:25:35
-categories: ruby, code, quirks, TIL
+categories: ruby code quirks TIL
 ---
 
 TIL `DateTime` / `Time.now` does not respect app time zone settings. The`DateTime` / `Time.current` appears to be the correct (and documented) means of accessing the application's TZ-adjusted time.
