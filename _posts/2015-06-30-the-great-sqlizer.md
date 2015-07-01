@@ -167,3 +167,17 @@ ALTER TABLE ONLY users
 {% endhighlight %}
 
 This means the `db:test:load/prepare` tasks will work normally. The only thing that breaks is you can no longer use `db:schema:load`. However, the `db:structure:load` task will work just as well.
+
+## Update
+
+Short Twitter convo with a few Heroku engineers on the core PG team:
+
+<blockquote class="twitter-tweet" lang="en"><p lang="und" dir="ltr"><a href="https://twitter.com/plukevdh">@plukevdh</a> yep <a href="http://t.co/9uTDYwNiZr">http://t.co/9uTDYwNiZr</a></p>&mdash; Craig Kerstiens (@craigkerstiens) <a href="https://twitter.com/craigkerstiens/status/615685827226513409">June 30, 2015</a></blockquote>
+
+<blockquote class="twitter-tweet" data-conversation="none" lang="en"><p lang="en" dir="ltr"><a href="https://twitter.com/craigkerstiens">@craigkerstiens</a> do you know of any reason the performance would differ between the two?</p>&mdash; Luq (@plukevdh) <a href="https://twitter.com/plukevdh/status/615945185273454592">June 30, 2015</a></blockquote>
+
+<blockquote class="twitter-tweet" data-conversation="none" lang="en"><p lang="en" dir="ltr"><a href="https://twitter.com/plukevdh">@plukevdh</a> you mean creating a PK vs. a unique index not null ?</p>&mdash; Craig Kerstiens (@craigkerstiens) <a href="https://twitter.com/craigkerstiens/status/615945420578136065">June 30, 2015</a></blockquote>
+
+<blockquote class="twitter-tweet" data-conversation="none" lang="en"><p lang="en" dir="ltr"><a href="https://twitter.com/craigkerstiens">@craigkerstiens</a> <a href="https://twitter.com/plukevdh">@plukevdh</a> They&#39;re equivalent in how they perform.</p>&mdash; Peter Geoghegan (@petervgeoghegan) <a href="https://twitter.com/petervgeoghegan/status/615953027434831872">June 30, 2015</a></blockquote>
+
+<script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
